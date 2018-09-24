@@ -1,22 +1,12 @@
-package info.javadoff.model;
+package info.javadoff.petclinic.model;
 
-import javax.persistence.Entity;
 import java.time.LocalDate;
 
-@Entity
 public class Pet {
 
-    private LocalDate birtDate;
     private PetType petType;
     private Owner owner;
-
-    public LocalDate getBirtDate() {
-        return birtDate;
-    }
-
-    public void setBirtDate(LocalDate birtDate) {
-        this.birtDate = birtDate;
-    }
+    private LocalDate birthDate;
 
     public PetType getPetType() {
         return petType;
@@ -32,5 +22,13 @@ public class Pet {
 
     public void setOwner(Owner owner) {
         this.owner = owner;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 }

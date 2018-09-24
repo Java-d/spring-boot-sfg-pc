@@ -1,6 +1,7 @@
-package info.javadoff.model;
+package info.javadoff.petclinic.model;
 
 public class PetType {
+
     private String name;
 
     public String getName() {
