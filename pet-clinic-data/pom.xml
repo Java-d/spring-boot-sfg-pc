@@ -3,11 +3,11 @@
     <parent>
         <artifactId>spring-boot-sfg-pc</artifactId>
         <groupId>info.javadoff</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.3.SNAPSHOT-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>pet-clinic-data</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3.SNAPSHOT-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -4,7 +4,7 @@
 
     <groupId>info.javadoff</groupId>
     <artifactId>spring-boot-sfg-pc</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3.SNAPSHOT-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -45,6 +45,7 @@
     </build>
     <scm>
         <tag>HEAD</tag>
+        <connection>scm:git:https://github.com/Java-d/spring-boot-sfg-pc.git</connection>
         <developerConnection>scm:git:https://github.com/Java-d/spring-boot-sfg-pc.git</developerConnection>
     </scm>
 </project>
