@@ -45,7 +45,6 @@
     </build>
     <scm>
         <tag>HEAD</tag>
-        <connection>scm:git:https://github.com/Java-d/spring-boot-sfg-pc.git</connection>
         <developerConnection>scm:git:https://github.com/Java-d/spring-boot-sfg-pc.git</developerConnection>
     </scm>
 </project>
